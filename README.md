@@ -47,3 +47,8 @@ e.g., 16-shot training with ViT-B/16
 ```train
 CUDA_VISIBLE_DEVICES=0 bash scripts/sct/train.sh data imagenet vit_b16_ep25 end 16 16 False 0.25 200
 ```
+
+## Acknowledgement
+We appreciate the following papers for their open-source code, which this repository is built upon.
+* [Learning to Prompt for Vision-Language Models (IJCV 2022)](https://arxiv.org/abs/2109.01134).
+* [LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning (NeurIPS2023)](https://arxiv.org/abs/2306.01293).
